@@ -75,11 +75,7 @@
 }
 
 /* Hero section classes */
-.hero_sec {
-  height: 700px;
-  z-index: 1;
-  background-image: url("../backgrounds/white-wood-wall-texture-bg.jpg");
-}
+
 
 /* Main Program Classes */
 .mp-undrline {
@@ -232,7 +228,7 @@ main {
 }
 
 .width-hero {
-  width: 90%;
+  width: 70%;
 }
 
 /* View Above 768px Desktop V */
@@ -277,7 +273,7 @@ main {
   }
 
   .left-md-150 {
-    left: 150px;
+    left: 100px;
   }
 
   .right-md-150 {
@@ -574,5 +570,6 @@ a:hover {
 .border-red {
   border: #ec5242 solid 3px;
 }
+
 
 /*# sourceMappingURL=styles.css.map */
