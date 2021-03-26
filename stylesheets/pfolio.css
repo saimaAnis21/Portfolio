@@ -68,3 +68,26 @@ nav {
 .line-h{
     line-height: 30px;
 }
+
+.img-dim{
+    width: 300px;
+    height: 300px
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.car-item{
+   
+}
+.car-cap{
+    background-color: black;
+    opacity: 0.7;
+    margin-bottom: 120px;   
+    color: whitesmoke;
+}
+
+.color-black{
+    color: black;
+}
