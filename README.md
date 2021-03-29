@@ -1,10 +1,6 @@
-# A TEDx Conference Website.
+# My Portfolio.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is a TEDx conference website, which has three pages: 1- The Main Page 2- The About Us page 3- The Tickets page. The website provides information about the global TEDx conference to be held on Jan 2021. It has the details of all the speakers and a link from where tickets can be bought.
-![screenshot](images/screenshot-tedx.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -15,20 +11,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://saimaanis21.github.io/Capstone/index.html)
-
-# Getting Started 🚀
-
-These instructions will get you a copy of the project up and running on your local machine.
-
-## How To Use 🔧
-
-From your command line, first clone the project:
-
-- Run the command line terminal from your local folder
-- Clone this repository (git clone https://github.com/saimaAnis21/Capstone.git)
-- Open the Local Copy of your repository and open the command line terminal from there then run the   following command (git pull)
-
+[Live Demo Link](https://saimaanis21.github.io/Portfolio/)
 
 ## Authors
 
