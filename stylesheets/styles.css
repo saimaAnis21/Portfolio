@@ -78,11 +78,7 @@
 
 
 /* Main Program Classes */
-.mp-undrline {
-  width: 50px;
-  height: 2px;
-  background-color: #ec5242;
-}
+
 
 .flex-wrap {
   display: flex;
@@ -101,21 +97,13 @@
 }
 
 .grey-undrline {
-  width: 25px;
+  width: 270px;
   height: 2px;
   background-color: #d3d3d3;
 }
 
 /* featured speakers classes */
-.speakers-item {
-  display: flex;
-  align-items: flex-start;
-}
 
-.spkr-img {
-  width: 120px;
-  height: 120px;
-}
 
 /* Partners classes */
 .partners {
@@ -210,17 +198,11 @@ main {
 }
 
 .feat-spkrs {
-  height: 950px;
+  height: 900px;
   background-color: white;
 }
 
-.speakers-grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
-  row-gap: 10px;
-}
+
 
 .partners img {
   height: 50px;
@@ -261,12 +243,7 @@ main {
     height: 700px;
   }
 
-  .speakers-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: 10px;
-    width: 75%;
-  }
+  
 
   .partners img {
     height: 60px;

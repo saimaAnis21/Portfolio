@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -20,9 +20,17 @@
     <script src="https://use.fontawesome.com/93b7dd2125.js"></script>
     <script src="https://kit.fontawesome.com/7787f36583.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="stylesheets/styles.css" />
     <link rel="stylesheet" href="stylesheets/css-reset.css" />
     <link rel="stylesheet" href="stylesheets/pfolio.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
     
     <title>Saima Anis - Portfolio</title>
   </head>
@@ -32,14 +40,31 @@
     <header >
     <nav>
       <div class="py-2">
-        <div class="d-flex mt-2">
-         <div class="color-white  mx-5 my-2"><a role="button" class="btn btn-primary" href="https://www.linkedin.com/in/saima-anis/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAADGX3KgBcz1bYlw870CakfL30rkxeJ5twvw,1612959408901)/" target="_blank">My Resume</a></div>
-         <div class="  w-50"></div>
-         <div class="my-2" >
-              <a class = "px-4 my-2" href="https://www.linkedin.com/in/saima-anis/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-              <a class = "" href="https://github.com/saimaAnis21" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
-              <a class = "px-4" href="https://twitter.com/SheTALKS6" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>  
-        </div>
+        <div class=" mt-2 ">
+            <div class="ml-5 color-white d-inline"><a role="button" class="btn btn-primary mr-3" href="https://www.linkedin.com/in/saima-anis/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAADGX3KgBcz1bYlw870CakfL30rkxeJ5twvw,1612959408901)/" target="_blank">My Resume</a>
+              <a role="button" class="btn btn-primary" href="mailto:saima_rehman21@yahoo.com" target="_blank">Email: saima_rehman21@yahoo.com</a> 
+            </div>
+           
+            <div class="d-md-block d-none float-r" >
+                  <a class = "px-4 my-2" href="https://www.linkedin.com/in/saima-anis/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+                  <a class = "" href="https://github.com/saimaAnis21" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
+                  <a class = "px-4" href="https://twitter.com/SheTALKS6" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>  
+
+            </div>
+            
+            <div class="btn-group dropleft d-md-none float-r mr-5">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropleft
+              </button>
+              <div class="dropdown-menu bg-dd ">
+                <ul class="pl-4 ">
+                <li>  <a class = "" href="https://www.linkedin.com/in/saima-anis/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></li>
+                <li>  <a class = "" href="https://github.com/saimaAnis21" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a></li>
+                <li>  <a class = "" href="https://twitter.com/SheTALKS6" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>  </li>
+                </ul>
+              </div>
+            </div>
+            
         </div>
       </div>
     </nav>
@@ -48,15 +73,15 @@
    <main >
 <!--hero -->
      <section>
-       <div class="hero_sec d-inline-flex justify-content-center">
-         <div class="d-flex flex-column px-5 pt-15 hero-sec-txt w-50 ">
-             <h2 class="txt-red font_size_med">"Hello World!!"</h2>
-             <h1 class="txt-darkred font_coco font_size_big ">
-             #Saima Anis</h1>
-             <h2 class="v-white font_coco font_size_med">I'm a #{Software Developer},based in Karachi Pakistan </h2>
+       <div class="hero_sec d-md-inline-flex justify-content-center">
+         <div class="d-flex flex-column px-5 pt-15 hero-sec-txt w-md-50 ">
+             <h2 class="color-white font_size_med">"Hello World!!"</h2>
+             <h1 class="color-white font_coco font_size_big ">
+             I am Saima Anis</h1>
+             <h2 class="v-white font_coco font_size_med">A #{Software Developer},based in Karachi Pakistan </h2>
              
              <div class="line-h v-white ">
-              I am a Full-stack Developer with knowledge of  <span>
+              A Full-stack Developer with knowledge of  <span>
                 <img alt="html5" src="https://img.shields.io/badge/-C%23-brightgreen" />
                 <img alt="html5" src="https://img.shields.io/badge/-SQL-yellowgreen" />
                 <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -65,7 +90,8 @@
                 <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" />
                 <img alt="Ruby on Rails" src="https://img.shields.io/badge/-Rails-45b8d8?style=flat-square&logo=ruby&logoColor=white" />
                   
-              </span>. I build websites and I am  in search of an amazing team to work with!!
+              </span>. <br>
+              I build websites and I am  in search of an amazing team to work with!!
              </div>
              
          </div>
@@ -83,84 +109,116 @@
 
      </section>-->
      <section>
-      <div class=" w-100">
-        <div class="flex-wrap txt-black">
+      
+        <div class="d-flex flex-column  txt-black ">
             <!--speakers heading-->
-            <div class="pad_top font_size_med pb-3">My Work</div>
-            <div class="mp-undrline"></div>
-            <div class="speakers-grid mx-auto pad_top">
-              <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/HTML-capstone.png">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>Web Conference Website</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong><a href="https://saimaanis21.github.io/Capstone/index.html" target="_blank" class="txt-red ">LIVE LINK</a></strong>             
-                  </span>
-                  <span><a href="https://github.com/saimaAnis21/Capstone" target="_blank"><i class="color-black fab fa-github-square fa-2x"></i></a></span>
-                  <span class="font_size_xsm p-top"><img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-                    <img alt="html5" src="https://img.shields.io/badge/-CSS-red" /></span>
+           
+                <div class="pad_top font_size_med mb-2 align-self-center">My Work</div>
+                <div class="mp-undrline align-self-center mb-3"></div>
+          
+
+
+            <div class="speakers-grid  align-self-center px-5">
+              
+              <div class="speakers-item line_height_sm shadow">
+
+                <img alt="html capstone" class="spkr-img p-10" src="images/HTML-capstone.png">
+
+                <div class=" d-flex flex-column pt-3 pr-3 w-70">
+                      <span class="font_size_sm mb-3"><strong>Web Conference Website</strong></span>
+                      <span class="font_size_sm txt-red txt-italic ">                    
+                        <a class="pr-3" href="https://github.com/saimaAnis21/Capstone" target="_blank"><i class="color-black fab fa-github-square fa-3x"></i></a>             
+                        <strong><a   href="https://saimaanis21.github.io/Capstone/index.html" target="_blank" class="pr-3 txt-red ">LIVE LINK</a> </strong> 
+                        <strong><a  href="https://github.com/saimaAnis21/Capstone/blob/main/README.md" target="_blank" class="txt-red ">READ ME</a> </strong> 
+                      </span>
+                      <span class="grey-undrline mb-3"></span>
+                      <span class=" mb-3"><img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+                        <img alt="html5" src="https://img.shields.io/badge/-CSS-red" /></span>
+                        <span class="line-h ">A TEDx conference website with three pages:<br>
+                         
+                            1- The Main Page <br>
+                            2-The About Us page <br>
+                            3- The Tickets page <br>
+                          
+                               
+                                </span>
                 </div>
               </div>
              
-              <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/RoR-capstone.png">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>Teachers Clockify - Mob Web App</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong><a href="https://teacher-clockify.herokuapp.com/session/new" target="_blank" class="txt-red ">LIVE LINK</a></strong></span>
-                  <span class="grey-undrline"></span>
-                  <span class="font_size_xsm p-top"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" />
+              <div class="speakers-item line_height_sm shadow">
+                <img alt="Rails Capstone" class="spkr-img p-10" src="images/RoR-capstone.png">
+                <div class="d-flex flex-column pt-3 pr-3 w-70">
+                  <span class="font_size_sm mb-3 line-h"><strong>Teachers Clockify Mob Web App</strong></span>
+                  <span class="font_size_sm txt-red txt-italic ">                    
+                    <a class="pr-3" href="https://github.com/saimaAnis21/Teachers_Clockify" target="_blank"><i class="color-black fab fa-github-square fa-3x"></i></a>             
+                    <strong><a   href="https://teacher-clockify.herokuapp.com/session/new" target="_blank" class="pr-2 txt-red ">LIVE LINK</a> </strong> 
+                    <strong><a  href="https://github.com/saimaAnis21/Teachers_Clockify/blob/development/README.md" target="_blank" class="txt-red ">READ ME</a> </strong> 
+                  </span>
+                  <span class="grey-undrline mb-3"></span>
+                  <span class="mb-3"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" />
                     <img alt="Ruby on Rails" src="https://img.shields.io/badge/-Rails-45b8d8?style=flat-square&logo=ruby&logoColor=white" /></span>
+                    <span class="line-h mb-2">A Mobile version website where teachers log in their working hours. Features include:<br>
+                         
+                      1- Log hours teaching <br>
+                      2- Log hours spent planning/checking/Teacher development <br>
+                      3- View Total Hours spent <br>
+                    
+                         
+                          </span>
                 </div>
               </div>
 
-              <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/tic-tac-toe.jpg">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>TIC TAC TOE Game</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong><a href="https://replit.com/@saimaAnis21/tic-tact-toe" target="_blank" class="txt-red ">REPL LINK</a></strong></span>
-                  <span class="grey-undrline"></span>
-                  <span class="font_size_xsm p-top"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" /></span>
+              <div class="speakers-item line_height_sm shadow">
+                <img alt="tic-tac-toe" class="spkr-img p-10" src="images/tic-tac-toe.jpg">
+                <div class="pt-3 pr-3 w-70 d-flex flex-column">
+                  <span class="font_size_sm mb-3"><strong>TIC TAC TOE Game</strong></span>
+                  <span class="font_size_sm txt-red txt-italic ">                    
+                    <a class="pr-3" href="https://github.com/saimaAnis21/tic-tact-toe" target="_blank"><i class="color-black fab fa-github-square fa-3x"></i></a>             
+                    <strong><a   href="https://replit.com/@saimaAnis21/tic-tact-toe" target="_blank" class="pr-2 txt-red ">REPL LINK</a> </strong> 
+                    <strong><a  href="https://github.com/saimaAnis21/tic-tact-toe/blob/development/README.md" target="_blank" class="txt-red ">READ ME</a> </strong> 
+                  </span>
+                  <span class="grey-undrline mb-3"></span>
+                  <span class="font_size_xsm mb-3"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" /></span>
+                  <span class="line-h mb-2">The game is played on a 3x3 grid.<br>
+                    1-One player marks with symbol X on a number, the other player with symbol O.<br>
+                    2-Players take turns to input a no. between (1-9) to mark one of the empty squares.<br>
+                    3-The first player to get 3 marks in a row (up, down, across, or diagonally) is the winner.<br>
+                    4-If none of the players win and all 9 squares are filled the game is a draw <br>
+                        </span>
+                
                 </div>
               </div>
 
-              <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/ruby-capstone.jpg">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>Covid-19 Latest Stats Scraper</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong><a href="https://replit.com/@saimaAnis21/Ruby-Capstone-Scraper" target="_blank" class="txt-red ">REPL LINK</a></strong></span>
-                  <span class="grey-undrline"></span>
-                  <span class="font_size_xsm p-top"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" /></span>
+              <div class="speakers-item line_height_sm shadow">
+                <img alt="ruby capstone" class="spkr-img p-10" src="images/ruby-capstone.jpg">
+                <div class="pt-3 pr-3 w-70 d-flex flex-column">
+                  <span class="font_size_sm mb-3"><strong>Covid-19 Latest Stats Scraper</strong></span>
+                  <span class="font_size_sm txt-red txt-italic ">                    
+                    <a class="pr-3" href="https://github.com/saimaAnis21/Ruby-Capstone-Scraper" target="_blank"><i class="color-black fab fa-github-square fa-3x"></i></a>             
+                    <strong><a   href="https://replit.com/@saimaAnis21/Ruby-Capstone-Scraper" target="_blank" class="pr-2 txt-red ">REPL LINK</a> </strong> 
+                    <strong><a  href="https://github.com/saimaAnis21/Ruby-Capstone-Scraper/blob/main/README.md" target="_blank" class="txt-red ">READ ME</a> </strong> 
+                  </span>
+                  <span class="grey-undrline mb-3"></span>
+                  <span class="font_size_xsm mb-3"><img alt="Ruby" src="https://img.shields.io/badge/-Ruby-430098?style=flat-square&logo=ruby&logoColor=white" /></span>
+                  <span class="line-h mb-2">A website scraper which collects data regarding the latest stats on Covid-19 deaths, from the website Worldometer and saves it in a csv file. <br>
+                    This project includes the following features:<br>
+
+                          1-Scrapes the Worldometer Website<br>
+                          2-Collects the latest data on the Covid-19 death toll<br>
+                          3-Displays the data categorically in a CSV file<br>
+
+                        </span>
                 </div>
               </div>
-
-              <!-- <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/spkr5.png">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>Lila Tretikov</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong>Executive Director of the Wikimedia Foundation</strong></span>
-                  <span class="grey-undrline"></span>
-                  <span class="font_size_xsm p-top">Lila Tretikov is the Executive Director of Wikimedia Foundation, the non-profit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world.</span>
-                </div>
-              </div>
-
-              <div class="speakers-item line_height_sm">
-                <img alt="speaker" class="spkr-img p-10" src="images/spkr6.png">
-                <div class="p-10 d-flex flex-column">
-                  <span class="font_size_sm p-bottom"><strong>Ryan Merkley</strong></span>
-                  <span class="font_size_xsm txt-red txt-italic p-bottom"><strong>Executive Director of the Wikimedia Foundation</strong></span>
-                  <span class="grey-undrline"></span>
-                  <span class="font_size_xsm p-top">Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.</span>
-                </div>
-              </div>-->
-
-            </div>
+          </div>
         </div>
 
-      </div>
+    
 
 
    </section>
 
-      <section>
+      <section class="d-flex justify-content-center">
              <!--Carousel 
           <div class="bg-black">
           <div id="myCarousel" class="carousel slide" data-ride="carousel" data-wrap="true" >
@@ -205,13 +263,31 @@
             </a>
           </div>
         </div>-->
+       
         
       </section>
 
-
+          <!--Footer--> 
+      <footer>
+        <div class="footer-div bg-white w-100 d-mob-none">
+          <div class="flex-wrap mx-auto p-top-40 ">
+            <div>
+              
+              <span class="font_size_xsm p-10">
+                <a class = "px-4 my-2" href="https://www.linkedin.com/in/saima-anis/" target="_blank"><i class="color-black fab fa-linkedin fa-3x"></i></a>
+                <a class = "" href="https://github.com/saimaAnis21" target="_blank"><i class="color-black fab fa-github-square fa-3x"></i></a>
+                <a class = "px-4" href="https://twitter.com/SheTALKS6" target="_blank"><i class="color-black fab fa-twitter-square fa-3x"></i></a>  </span>
+            </div>
+          </div>
+      </div>
+      </footer>
    </main> 
 
 
-    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+   <script src="contact.js"></script>
   </body>
 </html>
