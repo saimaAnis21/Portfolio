@@ -125,6 +125,10 @@ nav {
       line-height: 20px;
   }
 
+  .color-blue{
+    background-color: #27517d;
+  }
+
   .speakers-grid {
     display: grid;
     width: 100%;
